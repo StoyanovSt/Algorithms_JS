@@ -1,3 +1,4 @@
+//Big-O = O(logn)
 function binarySearchRecursive(arr, target) {
   if (!arr.length) return -1;
   arr.sort((a, b) => a - b);
